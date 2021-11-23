@@ -2,7 +2,7 @@
   "name": "react-monsters",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aarassgri.github.io/monsters-basic-of-react",
+  "homepage": "https://aarassgri.github.io/monsters-basic-of-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
